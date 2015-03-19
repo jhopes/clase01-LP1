@@ -6,7 +6,6 @@ public class principal {
 
     
     public static void main(String[] args) {
-
         vehiculo v = new vehiculo();
         ClsVehiculo cv= new ClsVehiculo();
         
@@ -15,7 +14,6 @@ public class principal {
         v.setModelo("HIACE");
         
         System.out.println(v.getPlaca()+" "+ v.getMarca()+" "+v.getModelo()+" "+cv.frenar());
-        
-    }
+ }
     
 }

@@ -6,6 +6,7 @@ public class principal {
 
     
     public static void main(String[] args) {
+
         vehiculo v = new vehiculo();
         ClsVehiculo cv= new ClsVehiculo();
         

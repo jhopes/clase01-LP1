@@ -15,6 +15,7 @@ public class principal {
      */
     public static void main(String[] args) {
         System.out.println("Hola jhopes");
+        System.out.println("Hola lavado");
     }
     
 }

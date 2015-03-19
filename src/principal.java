@@ -1,16 +1,20 @@
+
+import controlador.ClsVehiculo;
+import modelo.vehiculo;
+
 public class principal {
 
     
     public static void main(String[] args) {
-        System.out.println("Hola jhopes");
-        System.out.println("Hola lavado");
-        System.out.println("Hola Alondra");
-        System.out.println("¿Como estan?");
-        System.out.println("FALTAN VARIOS");
-        System.out.println("hello");
-        System.out.println("los sistems");
-        System.out.println("Hola Jorge");
-        System.out.println("jgfkhdashjfjdjfklsa");
+        vehiculo v = new vehiculo();
+        ClsVehiculo cv= new ClsVehiculo();
+        
+        v.setPlaca("RX-1587");
+        v.setMarca("TOYOTA");
+        v.setModelo("HIACE");
+        
+        System.out.println(v.getPlaca()+" "+ v.getMarca()+" "+v.getModelo()+" "+cv.frenar());
+        
     }
     
 }

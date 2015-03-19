@@ -12,7 +12,7 @@ public class principal {
         System.out.println("Hola Jorge");
         System.out.println("Hola Ewin");
         System.out.println("ya ingrerse");
-        System.out.println("hola Liseth");
+        System.out.println("hola********** Liseth");
     }
     
 }
